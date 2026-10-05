@@ -1,35 +1,17 @@
 # Sinter
 
-**Mac Token Factory · Local models, conversations, and APIs.**
+Mac 版单机引擎与 CUDA 版 AI infra 引擎。
 
-[简体中文](README.zh-CN.md) · [Get started](docs/en/getting-started.md) · [Model guide](docs/en/models.md) · [API guide](docs/en/api.md)
+## 0x01. Mac 版推理引擎。
 
-Sinter brings local AI models into a native Mac app. Manage model folders, keep conversations on your Mac, and offer an OpenAI-compatible API to your applications.
+Sinter 将本地 AI 模型整合进原生 Mac 应用，并提供兼容 OpenAI 的 API。
 
-**Sinter** is the app. **SinterLM** is its native Rust and Metal inference engine. MLX Swift LM is an additional engine option.
+Sinter App 应用内提供[ MLX Swift LM](https://huggingface.co/mlx-community) 引擎选项，同时提供了 SinterLM Mac 版，以原生 Metal 实现的自研推理引擎。
 
-## Availability
+### 获取应用
 
-The product is under development. **No public download or App Store listing is available yet.** This repository contains public documentation and release information, not the proprietary application or engine source.
+应用面向 Apple Silicon 和 macOS 14 及以上版本；模型是否可用，还取决于权重格式、所选引擎、设备内存与对应发行版的验证范围。
 
-Public installers will be attached to this repository's Releases. The [release catalog](releases/catalog.json) is currently empty.
 
-## Explore
 
-| Task | Guide |
-| --- | --- |
-| Prepare your Mac and start a local conversation | [Get started](docs/en/getting-started.md) |
-| Import downloaded or fine-tuned models | [Models and engine compatibility](docs/en/models.md) |
-| Connect another application or a LAN client | [API service](docs/en/api.md) |
-| Resolve common setup problems | [FAQ](docs/en/faq.md) |
-| Follow changes | [Changelog](CHANGELOG.md) |
 
-The application targets Apple Silicon and macOS 14 or later. A model's availability also depends on its format, selected engine, device memory, and the tested release. See the model guide for the current development scope.
-
-Basic model management, local conversations, and API access are being refined first. Paid subscription activation is deferred.
-
-## About this repository
-
-`sinter-doc` is the public home for documentation, release notes, and feedback. Binary downloads belong in Release attachments rather than Git history. Documentation describes the development product until a supported public version is published.
-
-Maintainers: [release guide](RELEASE_GUIDE.md) · [third-party notices](THIRD_PARTY_NOTICES.md).
