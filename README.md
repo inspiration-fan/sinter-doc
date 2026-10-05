@@ -12,9 +12,13 @@ Sinter App 应用内提供[ MLX Swift LM](https://huggingface.co/mlx-community) 
 
 应用面向 Apple Silicon 和 macOS 14 及以上版本；模型是否可用，还取决于权重格式、所选引擎、设备内存与对应发行版的验证范围。
 
+### 隐私与支持
+
+Sinter 在本机运行模型。有关本机数据、模型下载、订阅和数据删除方式，请阅读 [Sinter 隐私政策](PRIVACY.zh-Hans.md)。
+
+隐私问题和应用支持请通过 [GitHub Issues](https://github.com/inspiration-fan/sinter-doc/issues) 联系开发者。请不要在公开 Issue 中提交访问密钥或私密对话。
+
 ## 0x02. CUDA 版推理引擎
 
 on the way...
-
-
 
