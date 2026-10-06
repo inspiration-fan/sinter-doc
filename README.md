@@ -10,7 +10,7 @@ Sinter App 应用内提供[ MLX Swift LM](https://huggingface.co/mlx-community) 
 
 ### 性能基线
 
-[Mac 性能参考基线（2026-10-06）](docs/performance/mac-qwen35-baseline-2026-10-06.md)：Mac SinterLM / MLX 实测对比与复现环境。
+[Mac 性能参考基线](docs/performance/mac-qwen35-baseline.md)：Mac SinterLM / MLX 实测对比与复现环境。
 
 ### 获取应用
 
