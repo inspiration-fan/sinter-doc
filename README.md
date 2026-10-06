@@ -8,13 +8,18 @@ Sinter 将本地 AI 模型整合进原生 Mac 应用，并提供兼容 OpenAI �
 
 Sinter App 应用内提供[ MLX Swift LM](https://huggingface.co/mlx-community) 引擎选项，同时提供了 SinterLM Mac 版，以原生 Metal 实现的自研推理引擎。
 
+### 性能基线
+
+[Mac 性能参考基线（2026-10-06）](docs/performance/mac-qwen35-baseline-2026-10-06.md)：Mac SinterLM / MLX 实测对比与复现环境。
+
 ### 获取应用
 
-应用面向 Apple Silicon 和 macOS 14 及以上版本；模型是否可用，还取决于权重格式、所选引擎、设备内存与对应发行版的验证范围。
+应用面向 Apple Silicon 和 macOS 14 及以上版本；模型是否可用，还取决于权重格式、所选引擎、设备内存。
 
 ## 0x02. CUDA 版推理引擎
 
-on the way...
+面向 qwen /deepseek 将会支持 TP、EP、MTP 等等多种推理加速技术，on the way...
+
 
 
 
